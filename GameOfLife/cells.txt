@@ -1,0 +1,5 @@
+block x x x x
+tub o x o x o x o x o
+beacon x x o o x x o o o o x x o o x x
+blinker o x o o x o o x o
+spaceship o x o o o o x o x x x o o o o o
