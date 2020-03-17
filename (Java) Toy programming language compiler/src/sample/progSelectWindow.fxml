@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:controller="sample.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+      minWidth="-Infinity" prefHeight="434.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/11.0.1"
+      xmlns:fx="http://javafx.com/fxml/1">
+   <ListView id="programList" layoutX="14.0" layoutY="14.0" prefHeight="373.0" prefWidth="377.0"/>
+   <TextField id="idTF" layoutX="14.0" layoutY="396.0" prefHeight="25.0" prefWidth="249.0"
+              promptText="Enter the ID of the program you want to run"/>
+   <Button id="runBtn" layoutX="273.0" layoutY="396.0" mnemonicParsing="false" onAction="#runBtnPressed"
+           prefHeight="25.0" prefWidth="117.0" text="Go!"/>
+</Pane>
